@@ -2,7 +2,7 @@ from Bio.Seq import Seq
 import streamlit as st
 
 #---MAIN MENU---
-st.title("ZEROv0.3 : Personal Bio Assistnat")
+st.title("ZEROv0.3 : Personal Bio Assistant")
 st.subheader("I'm beta version of ZERO")
 name = st.text_input("Your Good Name Please?").capitalize()
 if name :
